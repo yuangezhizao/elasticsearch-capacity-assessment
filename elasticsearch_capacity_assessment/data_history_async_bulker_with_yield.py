@@ -64,15 +64,3 @@ if __name__ == '__main__':
         p.join()
 
     print('All tasks finish：', _now())
-
-# System CPU 32 Core & Each Process: 50 * 10000
-
-# Refer: <rm>
-
-# "Total Shards 44,946.6 /s, Primary Shards 44,946.6 /s" based on "1 Primary Shard, 0 Replica Shard" & "16 Process"
-
-# "Total Shards 54,747.3 /s, Primary Shards 54,747.3 /s" based on "1 Primary Shard, 0 Replica Shard" & "32 Process"
-
-# "Total Shards 54,219.9 /s, Primary Shards 26,891.9 /s" based on "1 Primary Shard, 1 Replica Shard" & "16 Process"
-
-# "Total Shards 67,971.7 /s, Primary Shards 34,145.6 /s" based on "1 Primary Shard, 1 Replica Shard" & "32 Process"

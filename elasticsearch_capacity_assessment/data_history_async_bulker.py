@@ -73,13 +73,3 @@ if __name__ == '__main__':
         p.join()
 
     print('All tasks finish：', _now() - start)
-
-# System CPU 32 Core & Each Process: 800,000 / 16 = 50,000 or 800,000 / 32 = 25,000
-
-# "Total Shards 63,853.4 /s, Primary Shards 63,853.4 /s" based on "1 Primary Shard, 0 Replica Shard" & "16 Process"
-
-# "Total Shards 60,964.3 /s, Primary Shards 60,964.3 /s" based on "1 Primary Shard, 0 Replica Shard" & "32 Process"
-
-# "Total Shards 69,793.6 /s, Primary Shards 34,563.3 /s" based on "1 Primary Shard, 1 Replica Shard" & "16 Process"
-
-# "Total Shards 74,277.6 /s, Primary Shards 38,489.5 /s" based on "1 Primary Shard, 1 Replica Shard" & "32 Process"
